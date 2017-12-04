@@ -1,0 +1,81 @@
+body{
+	background:url(../Image/Login_background.jpg);
+}
+.loginLabel {
+	font-style: italic 32px;
+	color: white;
+	font-size:20px;
+	font-weight:italic;
+}
+
+input, button {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	@include box-sizing(border-box);
+}
+input[type=text], input[type=password] {
+	padding: 0px 10px;
+	width: 300px;
+	height: $inputHeight;
+	color: black;
+	/*text-shadow: 1px 1px 1px black;*/
+	background: rgba(black, .16);
+	border: 0;
+	border-radius: 5px;
+	@include box-shadow(inset 0 1px 4px rgba(black, .3),
+	                    0 1px rgba(white, .06));
+}
+
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+DEMO 4
+*/
+
+.loginButtons {
+	background-color:#3bb3e0;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:18px;
+	text-decoration:none;
+    color:#fff;
+    position:relative;
+    padding:1px 0px;
+    padding-right:60px;
+    background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, rgb(44,160,202)),color-stop(1, rgb(62,184,229)));
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.loginButtons:active {
+	 top:3px;
+	 background-image: linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+     background-image: -o-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+     background-image: -moz-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+	 background-image: -webkit-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+     background-image: -ms-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+	 background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, rgb(62,184,229)),color-stop(1, rgb(44,160,202)));
+    -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+	-moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+    -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+}
+.welcome-text {
+   -fx-font-size: 32px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+.ui-widget-header,.ui-state-default, ui-button{
+            background:#b9cd6d;
+            border: 1px solid #b9cd6d;
+            color: #FFFFFF;
+            font-weight: bold;
+}

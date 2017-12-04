@@ -1,0 +1,13 @@
+.Domainborder {
+	border: 2px solid white;
+	box-shadow: 10px 10px 10px #009999;
+			/*border-radius: 25px;*/
+	margin-left:400px;
+	width:500px;
+	top: 80px;
+	border-radius:10px;
+	border-color:#004d66;
+	background:#004d66;	
+}
+
+

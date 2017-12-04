@@ -1,0 +1,90 @@
+h2 {
+	color:green;
+	-webkit-animation: flash 3s infinite; /* Chrome, Safari, Opera */
+    animation: flash 3s infinite;
+}
+@-webkit-keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+    color:#669999;
+  }
+
+  25%, 75% {
+    opacity: 0;
+    color: #009999;
+  }
+}
+
+@keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+    color:#2eb8b8;
+  }
+
+  25%, 75% {
+    opacity: 0;
+     color: #00cc99;
+  }
+}
+
+.flash {
+  -webkit-animation-name: flash;
+          animation-name: flash;
+}
+
+#Settings:hover{
+    -webkit-transform: scale(1.1,1.2);
+    -moz-transform:scale(1.05,1.1);
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+
+}
+#Query:hover{
+    -webkit-transform: scale(1.1,1.2);
+    -moz-transform:scale(1.05,1.1);
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+
+}
+#History:hover{
+    -webkit-transform: scale(1.1,1.2);
+    -moz-transform:scale(1.05,1.1);
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+
+}
+#DomainSetting:hover{
+    -webkit-transform: scale(1.1,1.2);
+    -moz-transform:scale(1.05,1.1);
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+
+}
+#Logout:hover{
+    -webkit-transform: scale(1.05,1.15);
+    -moz-transform:scale(1.05,1.1);
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+
+}
+#domain {
+    margin: 1px;
+    padding: 1px;
+    border: 2px solid purple;
+    width: 200px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: green;
+}
+#domain:hover > option {
+	display: block; background: #f9f9f9; border-top: 1px solid purple;
+	padding: 5px; border-bottom: 1px solid #4f4f4f;
+}
+#bounce{-webkit-transition: -webkit-transform 0.25s ease-in;}
+#bounce:hover{-webkit-transform:rotate(20deg)}
